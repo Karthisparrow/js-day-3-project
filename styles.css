@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    text-align: center;
+    color: midnightblue;
+    border: 10px solid midnightblue;
+    padding-bottom: 20px;
+    background-image:url("https://thumbs.dreamstime.com/b/black-tic-tac-toe-game-icon-isolated-seamless-pattern-white-background-vector-black-tic-tac-toe-game-icon-isolated-seamless-197590372.jpg");
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 50px auto;
+}
+.cell{
+    font-family: "permanent Marker",cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    background-color: darkkhaki;
+}
+.game--restart{
+    color: white;
+    background-color: crimson;
+}
